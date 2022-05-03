@@ -1,0 +1,40 @@
+.productToggler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.productTitle {
+    font-size: larger;
+    font-weight: bold;
+}
+.productRadioBtns {
+    display: flex !important;
+    flex-direction: row !important;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #F79B34 !important;
+}
+.moreVariationParent {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.moreVariations {
+    font-size: large;
+    color: #F79B34;
+    border-bottom: 2px solid #F79B34;
+}
+.contentDivider {
+    width: 100%;
+    margin: 30px 0 !important;
+}
+
+@media screen and (max-width: 641px) {
+    .productTitle {
+        width: 50%;
+    }
+    .productRadioBtns {
+        width: 50%;
+    }
+}

@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    background-color: #17353D;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.footerIcon {
+    color: white;
+}
+
+.footerData {
+    margin: 0;
+    color: white;
+}

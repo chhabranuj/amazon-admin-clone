@@ -1,0 +1,13 @@
+.uploadBtn {
+    width: 70%;
+    font-weight: bolder !important;
+    margin: 0 15% 4% 15% !important;
+    background-color: #F79B34 !important;
+}
+
+@media screen and (max-width: 641px) {
+    .uploadBtn{
+        width: 90%;
+        margin: 5% 5% 15% 5%!important;
+    }
+}

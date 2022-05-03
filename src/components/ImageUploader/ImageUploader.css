@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+.imageUploader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 7.5%;
+}
+.title {
+    font-family: 'Roboto Slab', serif;
+    font-size: xxx-large;
+    color: #17353D;
+    text-align: center;
+    margin: 100px 0 20px 0;
+}
+.previewAndUpload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.preview {
+    width: 230px;
+    height: 180px;
+    margin-right: 20px;
+    padding: 10px;
+    border: solid 3px #17353D;
+    border-radius: 5px;
+}
+.imageUploaderContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 220px);
+    height: 200px;
+    color: #17353D;
+    background-color: #B4B4B4;
+    border-radius: 5px;
+    border: dashed 3px #17353D;
+    opacity: 50%;
+}
+.imageInput {
+    display: none;
+}
+.imageIcon {
+    width: 40px !important;
+    height: 40px !important;
+}
+.imageText {
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+}
+
+@media screen and (max-width: 641px) {
+    .imageUploader {
+        margin: 0 5%;
+        width: 90%; 
+    }
+    .title {
+        font-size: xx-large;
+    }
+    .preview {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .imageUploaderContent {
+        width: 90%;
+    }
+    .previewAndUpload {
+        flex-direction: column-reverse;
+    }
+}
